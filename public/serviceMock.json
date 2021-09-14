@@ -1,0 +1,21 @@
+{
+  "count": 1,
+  "users": [
+    {
+      "id": "6118c27d53489f05fda6d43c",
+      "customerId": "1234567",
+      "serviceType": "Pancard",
+      "requestDate": "02/08/2021",
+      "deliveryDate": "02/08/2021",
+      "payment": 200,
+      "maintainance": 30,
+      "recieptNo": "123456",
+      "postTrackNo": "123456",
+      "status": "inprogress/delivered",
+      "createdAt": "15-06-2021",
+      "createdBy": "rahul",
+      "UpdatedAt": "15-06-2021",
+      "updatedBy": "rahul"
+    }
+  ]
+}

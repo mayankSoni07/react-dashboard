@@ -1,0 +1,39 @@
+https://mherman.org/blog/dockerizing-a-react-app/
+
+docker build -t gcr.io/glass-flux-315813/onlineserviceui:v1.0.0 .
+docker run -p 8081:8080 -e PORT=8080 gcr.io/glass-flux-315813/onlineserviceui:v1.0.0
+gcloud beta run deploy --image gcr.io/glass-flux-315813/onlineserviceui:v1.0.0
+
+
+https://cloud.google.com/community/tutorials/deploy-react-nginx-cloud-run
+
+
+
+docker build -t sample:dev .
+
+
+docker run \
+    -it \
+    --rm \
+    -v ${PWD}:/app \
+    -v /app/node_modules \
+    -p 3000:3000 \
+    -e CHOKIDAR_USEPOLLING=true \
+    gcr.io/glass-flux-315813/onlineserviceui:v1.0.0
+
+-------------------------------------------------------------------------------------------------------------
+
+https://console.firebase.google.com/u/1/project/onlineservice-65d71/overview
+https://www.geeksforgeeks.org/how-to-deploy-react-project-on-firebase/
+https://www.geeksforgeeks.org/how-to-setup-a-firebase-for-your-react-project/
+
+
+
+
+Before deployment remove code which is not required.
+Clean code ---dashboard code else deployment fails.
+
+Service URL configurable -environment variable.
+
+
+

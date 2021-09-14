@@ -1,0 +1,2 @@
+export const SHOW_TOAST_ALERT = "SHOW_TOAST_ALERT";
+export const HIDE_TOAST_ALERT = "HIDE_TOAST_ALERT";
